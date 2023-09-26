@@ -1,9 +1,0 @@
-[Unit]
-Description=Meu Script de Inicialização
-
-[Service]
-ExecStart=/.FAB/backup.sh
-Restart=always
-
-[Install]
-WantedBy=graphical.target
